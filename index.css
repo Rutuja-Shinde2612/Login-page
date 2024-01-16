@@ -1,0 +1,84 @@
+*{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+}
+html,body{
+            background-color: #f2f2f2;
+            display: grid;
+            height: 100%;
+            place-items:center;
+}
+.wrap{
+        width:280px;
+        background-color: white;
+        border-radius: 10px;
+}
+
+.wrap .title{
+               line-height: 50px;
+               background: linear-gradient(to right,rgb(36, 36, 130),rgb(216, 12, 216));
+                border-radius: 8px 8px 0px 0px;
+                color: white;
+                font-size: 28px;
+                font-weight: 900;
+                text-align: center;
+            }
+            .wrap form{
+             padding: 10px 30px 30px;
+            }
+            .wrap form .field{
+                   padding: 10px;
+                                     
+            }
+ .wrap form .field input{
+                   height: 30px;
+                   width: 200px;
+                   border-radius: 20px;
+                   border:2px solid lightgray;
+                   outline: none;
+            }
+            .wrap form .field input:hover{
+                  border:2px solid ;
+                  
+
+            }
+            .wrap form #button input{
+                  background: linear-gradient(to right,rgb(36, 36, 130),rgb(216, 12, 216));
+                  color: white;
+                  border:2px solid lightgrey;
+                  font-size: 15px;
+                  font-weight: 600;
+            }
+            .wrap form #button input:hover{
+                  border:2px solid black;
+                  
+                  
+            
+            }
+        .wrap form .link 
+         {
+            text-align:center;
+            
+        }
+        .wrap form .signup-link 
+         {
+            text-align:center;
+            
+        }
+        .wrap form .link a
+         {
+            text-decoration: none;
+            
+        }
+        .wrap form .signup-link a{
+            text-decoration: none;
+        }
+        .wrap form .signup-link a:hover{
+            text-decoration: underline;
+            color:blue;
+        }
+        .wrap form .link a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
